@@ -24,7 +24,7 @@ public class Flipkart {
 		int oid=new Random().nextInt(10000);
 		//use courier for shipping 
 		String status= courier.delivery(oid);
-		String finalMsg=Arrays.toString(item)+" Are purchased with price"+Arrays.toString(price)+". The generated Bill Amount is::"+billAmnt;
+		String finalMsg=Arrays.toString(item)+" Are purchased with price"+Arrays.toString(price)+". Your Bill Ammount Is::"+billAmnt;
 		return finalMsg+"::"+status;
 			
 	}
